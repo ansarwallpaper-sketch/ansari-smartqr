@@ -1,0 +1,26 @@
+<index.html>
+<html>
+<head>
+<title>Ansari Wallpaper Feedback</title>
+</head>
+
+<body style="text-align:center;font-family:Arial">
+
+<h1>Ansari Wallpaper</h1>
+
+<p>Please rate our service</p>
+
+<br>
+
+<a href="https://g.page/r/YOURGOOGLELINK/review">
+<button style="padding:15px;font-size:18px">⭐ Give Google Review</button>
+</a>
+
+<br><br>
+
+<a href="https://wa.me/91XXXXXXXXXX">
+<button style="padding:15px;font-size:18px">Send Feedback</button>
+</a>
+
+</body>
+</html>
