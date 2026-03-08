@@ -1,26 +1,47 @@
-<index.html>
+<!DOCTYPE html>
 <html>
 <head>
 <title>Ansari Wallpaper Feedback</title>
+<style>
+body{
+font-family:Arial;
+text-align:center;
+padding:40px;
+}
+button{
+padding:15px;
+font-size:18px;
+margin:10px;
+}
+</style>
 </head>
 
-<body style="text-align:center;font-family:Arial">
+<body>
 
-<h1>Ansari Wallpaper</h1>
-
+<h2>Ansari Wallpaper</h2>
 <p>Please rate our service</p>
 
-<br>
+<button onclick="rate(1)">⭐</button>
+<button onclick="rate(2)">⭐⭐</button>
+<button onclick="rate(3)">⭐⭐⭐</button>
+<button onclick="rate(4)">⭐⭐⭐⭐</button>
+<button onclick="rate(5)">⭐⭐⭐⭐⭐</button>
 
-<a href="https://g.page/r/YOURGOOGLELINK/review">
-<button style="padding:15px;font-size:18px">⭐ Give Google Review</button>
-</a>
+<script>
 
-<br><br>
+function rate(star){
 
-<a href="https://wa.me/91XXXXXXXXXX">
-<button style="padding:15px;font-size:18px">Send Feedback</button>
-</a>
+if(star >=4){
+window.location.href="https://g.page/r/YOURGOOGLELINK/review";
+}
+
+else{
+window.location.href="https://wa.me/91XXXXXXXXXX";
+}
+
+}
+
+</script>
 
 </body>
 </html>
